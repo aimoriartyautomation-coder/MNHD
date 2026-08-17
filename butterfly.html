@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>ذا باترفلاي — شقق ودوبلكس وتاون هاوس في مستقبل سيتي | مدينة نصر للإسكان والتعمير</title>
+    <meta name="description" content="شقق ودوبلكس وتاون هاوس للبيع بالتقسيط في كمبوند ذا باترفلاي بمستقبل سيتي. مساحات متنوعة وتشطيبات راقية داخل مجتمع متكامل. احجز الآن.">
+    <meta property="og:title" content="ذا باترفلاي — مستقبل سيتي | مدينة نصر للإسكان والتعمير">
+    <meta property="og:description" content="شقق ودوبلكس وتاون هاوس للبيع بالتقسيط في كمبوند ذا باترفلاي بمستقبل سيتي">
+    <meta property="og:image" content="https://assets.live.beyond-creation.net/madinet-masr/media/library/seo%20the%20butterfly24092024160709.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#0a0c12">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="https://assets.live.beyond-creation.net/madinet-masr/media/library/THE%20BUTTERFLY%20CARD2409202412234913052026155043.webp?w=1920&q=90&ext=webp" fetchpriority="high">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css?v=1.3">
+    <style>
+        /* ===== BUTTERFLY PAGE — DARK DEEP THEME ===== */
+        :root {
+            --bf-dark:    #0a0c12;
+            --bf-mid:     #10131c;
+            --bf-purple:  #3b2d6e;
+            --bf-violet:  #6c47c9;
+            --bf-gold:    #c9a84c;
+            --bf-light:   #e8d9ff;
+            --bf-muted:   rgba(232,217,255,0.55);
+        }
+
+        body {
+            background: var(--bf-dark);
+            color: #fff;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bf-dark); }
+        ::-webkit-scrollbar-thumb { background: var(--bf-violet); border-radius: 3px; }
+
+        /* Navbar override for dark page */
+        .navbar { background: rgba(10,12,18,0.92); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(108,71,201,0.2); }
+        .navbar.scrolled { background: #fff; }
+        .navbar.scrolled .nav-link { color: var(--text-dark); }
+        .nav-link { color: rgba(255,255,255,0.75); }
+        .nav-link:hover { color: var(--bf-gold); }
+
+        /* ===== HERO ===== */
+        .bf-hero {
+            position: relative;
+            height: 100vh;
+            min-height: 640px;
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+        .bf-hero-bg {
+            position: absolute;
+            inset: 0;
+            background: url('https://assets.live.beyond-creation.net/madinet-masr/media/library/THE%20BUTTERFLY%20CARD2409202412234913052026155043.webp?w=1920&q=90&ext=webp') center/cover no-repeat;
+            transform: scale(1.04);
+            transition: transform 8s ease;
+        }
+        .bf-hero-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,12,18,0.97) 0%, rgba(10,12,18,0.6) 50%, rgba(10,12,18,0.2) 100%);
+        }
+        .bf-hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 0 0 80px;
+            width: 100%;
+        }
+        .bf-hero-content .container { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+        .bf-logo-badge {
+            display: inline-block;
+            margin-bottom: 28px;
+        }
+        .bf-logo-badge img {
+            height: 55px;
+            filter: brightness(1.2);
+        }
+        .bf-hero-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--bf-gold);
+            border: 1px solid rgba(201,168,76,0.4);
+            padding: 6px 18px;
+            border-radius: 999px;
+            margin-bottom: 22px;
+        }
+        .bf-hero-tag::before {
+            content: '';
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--bf-gold);
+            box-shadow: 0 0 8px var(--bf-gold);
+        }
+        .bf-hero h1 {
+            font-size: clamp(2.6rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.15;
+            color: #fff;
+            margin-bottom: 18px;
+        }
+        .bf-hero h1 span { color: var(--bf-gold); }
+        .bf-hero-sub {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.65);
+            max-width: 560px;
+            line-height: 1.8;
+            margin-bottom: 36px;
+        }
+        .bf-hero-btns {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .bf-btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--bf-violet), var(--bf-purple));
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            padding: 14px 32px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 8px 24px rgba(108,71,201,0.35);
+            text-decoration: none;
+        }
+        .bf-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(108,71,201,0.5); }
+        .bf-btn-outline {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: transparent;
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            padding: 13px 30px;
+            border-radius: 8px;
+            border: 1.5px solid rgba(255,255,255,0.3);
+            cursor: pointer;
+            transition: 0.3s ease;
+            text-decoration: none;
+        }
+        .bf-btn-outline:hover { border-color: var(--bf-gold); color: var(--bf-gold); }
+
+        /* ===== STATS BAR ===== */
+        .bf-stats {
+            background: linear-gradient(135deg, rgba(59,45,110,0.6), rgba(10,12,18,0.9));
+            border: 1px solid rgba(108,71,201,0.25);
+            border-radius: 16px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            margin: 60px auto;
+            max-width: 900px;
+            overflow: hidden;
+            backdrop-filter: blur(16px);
+        }
+        .bf-stat-item {
+            padding: 32px 24px;
+            text-align: center;
+            border-left: 1px solid rgba(108,71,201,0.2);
+        }
+        .bf-stat-item:last-child { border-left: none; }
+        .bf-stat-num {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: var(--bf-gold);
+            display: block;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        .bf-stat-label {
+            font-size: 0.82rem;
+            color: rgba(255,255,255,0.55);
+            font-weight: 500;
+        }
+
+        /* ===== SECTIONS ===== */
+        .bf-section {
+            padding: 90px 0;
+        }
+        .bf-section-header { text-align: center; margin-bottom: 60px; }
+        .bf-section-tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--bf-gold);
+            border: 1px solid rgba(201,168,76,0.35);
+            padding: 5px 16px;
+            border-radius: 999px;
+            margin-bottom: 16px;
+        }
+        .bf-section-title {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 14px;
+        }
+        .bf-section-sub {
+            font-size: 1.05rem;
+            color: var(--bf-muted);
+            max-width: 580px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* ===== GALLERY ===== */
+        .bf-gallery-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-rows: 280px 280px;
+            gap: 12px;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .bf-gallery-item {
+            position: relative;
+            overflow: hidden;
+            background: var(--bf-mid);
+        }
+        .bf-gallery-item:first-child { grid-row: 1 / 3; }
+        .bf-gallery-item img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        .bf-gallery-item:hover img { transform: scale(1.06); }
+        .bf-gallery-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,12,18,0.5) 0%, transparent 50%);
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+        .bf-gallery-item:hover::after { opacity: 1; }
+
+        /* ===== PANO STRIP ===== */
+        .bf-pano {
+            height: 380px;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            margin-top: 12px;
+        }
+        .bf-pano img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            transition: transform 8s ease;
+        }
+        .bf-pano:hover img { transform: scale(1.04); }
+        .bf-pano-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to left, rgba(10,12,18,0.8) 0%, transparent 60%);
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 60px;
+        }
+        .bf-pano-text h3 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .bf-pano-text p {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.95rem;
+            max-width: 400px;
+        }
+
+        /* ===== FEATURES GRID ===== */
+        .bf-features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .bf-feature-card {
+            background: linear-gradient(135deg, rgba(59,45,110,0.3), rgba(10,12,18,0.8));
+            border: 1px solid rgba(108,71,201,0.2);
+            border-radius: 16px;
+            padding: 36px 28px;
+            transition: 0.3s ease;
+            text-align: center;
+        }
+        .bf-feature-card:hover {
+            border-color: rgba(108,71,201,0.5);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 48px rgba(108,71,201,0.15);
+        }
+        .bf-feature-icon {
+            width: 64px; height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--bf-violet), var(--bf-purple));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.6rem;
+            box-shadow: 0 8px 24px rgba(108,71,201,0.3);
+        }
+        .bf-feature-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .bf-feature-text {
+            font-size: 0.9rem;
+            color: var(--bf-muted);
+            line-height: 1.7;
+        }
+
+        /* ===== UNITS ===== */
+        .bf-units-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .bf-unit-card {
+            background: var(--bf-mid);
+            border: 1px solid rgba(108,71,201,0.15);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: 0.3s ease;
+        }
+        .bf-unit-card:hover {
+            border-color: rgba(201,168,76,0.4);
+            transform: translateY(-4px);
+            box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+        }
+        .bf-unit-img {
+            height: 220px;
+            overflow: hidden;
+        }
+        .bf-unit-img img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .bf-unit-card:hover .bf-unit-img img { transform: scale(1.06); }
+        .bf-unit-body { padding: 24px; }
+        .bf-unit-type {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--bf-violet);
+            margin-bottom: 8px;
+        }
+        .bf-unit-name {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .bf-unit-desc {
+            font-size: 0.88rem;
+            color: var(--bf-muted);
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+        .bf-unit-specs {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .bf-spec {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.82rem;
+            color: rgba(255,255,255,0.6);
+        }
+        .bf-spec svg { color: var(--bf-gold); flex-shrink: 0; }
+        .bf-unit-cta {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 11px;
+            border-radius: 8px;
+            border: 1.5px solid rgba(108,71,201,0.4);
+            color: var(--bf-light);
+            font-size: 0.88rem;
+            font-weight: 700;
+            font-family: 'Cairo', sans-serif;
+            cursor: pointer;
+            background: transparent;
+            transition: 0.3s ease;
+        }
+        .bf-unit-cta:hover { background: var(--bf-violet); border-color: var(--bf-violet); }
+
+        /* ===== PAYMENT ===== */
+        .bf-payment {
+            background: linear-gradient(135deg, rgba(59,45,110,0.4) 0%, rgba(10,12,18,0.95) 100%);
+            border: 1px solid rgba(108,71,201,0.25);
+            border-radius: 24px;
+            padding: 70px;
+            text-align: center;
+        }
+        .bf-payment-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .bf-payment-item {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 28px 20px;
+        }
+        .bf-payment-num {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--bf-gold);
+            display: block;
+            margin-bottom: 6px;
+        }
+        .bf-payment-label {
+            font-size: 0.88rem;
+            color: var(--bf-muted);
+        }
+
+        /* ===== CONTACT ===== */
+        .bf-contact {
+            background: var(--bf-mid);
+            border-radius: 24px;
+            padding: 70px;
+        }
+        .bf-contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .bf-contact-info h2 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 16px;
+        }
+        .bf-contact-info p {
+            color: var(--bf-muted);
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .bf-contact-links { display: flex; flex-direction: column; gap: 14px; }
+        .bf-contact-link {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            color: rgba(255,255,255,0.7);
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .bf-contact-link:hover { color: var(--bf-gold); }
+        .bf-contact-link-icon {
+            width: 44px; height: 44px;
+            border-radius: 10px;
+            background: rgba(108,71,201,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--bf-violet);
+        }
+        .bf-form-group { margin-bottom: 18px; }
+        .bf-form-group label {
+            display: block;
+            font-size: 0.82rem;
+            color: var(--bf-muted);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .bf-form-group input,
+        .bf-form-group select {
+            width: 100%;
+            padding: 13px 16px;
+            background: rgba(255,255,255,0.06);
+            border: 1.5px solid rgba(108,71,201,0.25);
+            border-radius: 10px;
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.92rem;
+            transition: 0.25s ease;
+            direction: rtl;
+        }
+        .bf-form-group input:focus,
+        .bf-form-group select:focus {
+            outline: none;
+            border-color: var(--bf-violet);
+            background: rgba(108,71,201,0.1);
+        }
+        .bf-form-group select option { background: #1a1a2e; color: #fff; }
+        .bf-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--bf-violet), var(--bf-purple));
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 8px 24px rgba(108,71,201,0.35);
+        }
+        .bf-submit:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(108,71,201,0.5); }
+        .bf-form-success {
+            display: none;
+            align-items: center;
+            gap: 12px;
+            background: rgba(108,71,201,0.15);
+            border: 1px solid rgba(108,71,201,0.4);
+            border-radius: 10px;
+            padding: 16px 20px;
+            color: var(--bf-light);
+            margin-top: 16px;
+            font-size: 0.92rem;
+        }
+
+        /* ===== FOOTER ===== */
+        .bf-footer {
+            background: #05060a;
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid rgba(108,71,201,0.15);
+        }
+        .bf-footer-text {
+            color: rgba(255,255,255,0.3);
+            font-size: 0.82rem;
+        }
+
+        /* ===== MODAL OVERRIDE ===== */
+        .modal { position: fixed; inset: 0; z-index: 9000; display: none; align-items: center; justify-content: center; }
+        .modal.open { display: flex; }
+        .modal-overlay { position: absolute; inset: 0; background: rgba(5,6,10,0.85); backdrop-filter: blur(6px); }
+        .modal-content {
+            position: relative;
+            z-index: 1;
+            background: var(--bf-mid);
+            border: 1px solid rgba(108,71,201,0.3);
+            border-radius: 20px;
+            padding: 48px;
+            width: 100%;
+            max-width: 480px;
+            margin: 20px;
+            box-shadow: 0 32px 80px rgba(0,0,0,0.6);
+        }
+        .modal-close {
+            position: absolute;
+            top: 16px; left: 16px;
+            width: 36px; height: 36px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: transparent;
+            color: rgba(255,255,255,0.6);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: 0.2s;
+        }
+        .modal-close:hover { background: rgba(255,255,255,0.1); color: #fff; }
+        .modal-badge {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--bf-gold);
+            border: 1px solid rgba(201,168,76,0.35);
+            padding: 4px 14px;
+            border-radius: 999px;
+            margin-bottom: 14px;
+        }
+        .modal-title { font-size: 1.4rem; font-weight: 800; color: #fff; margin-bottom: 8px; }
+        .modal-desc { font-size: 0.88rem; color: var(--bf-muted); margin-bottom: 28px; }
+        .form-group { margin-bottom: 16px; }
+        .form-group label { display: block; font-size: 0.8rem; color: var(--bf-muted); margin-bottom: 7px; font-weight: 600; }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 12px 14px;
+            background: rgba(255,255,255,0.05);
+            border: 1.5px solid rgba(108,71,201,0.25);
+            border-radius: 8px;
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.9rem;
+            direction: rtl;
+        }
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: var(--bf-violet);
+        }
+        .form-group select option { background: #1a1a2e; }
+        .form-submit {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, var(--bf-violet), var(--bf-purple));
+            color: #fff;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .form-submit:hover { opacity: 0.9; transform: translateY(-1px); }
+        .form-success {
+            display: none;
+            align-items: center;
+            gap: 10px;
+            background: rgba(108,71,201,0.15);
+            border: 1px solid rgba(108,71,201,0.4);
+            border-radius: 8px;
+            padding: 14px 18px;
+            color: var(--bf-light);
+            margin-top: 14px;
+            font-size: 0.88rem;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .bf-gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+            .bf-gallery-item:first-child { grid-row: auto; grid-column: 1 / -1; height: 300px; }
+            .bf-features-grid, .bf-units-grid { grid-template-columns: 1fr 1fr; }
+            .bf-payment { padding: 50px 30px; }
+            .bf-contact { padding: 50px 30px; }
+        }
+        @media (max-width: 768px) {
+            .bf-hero h1 { font-size: 2.2rem; }
+            .bf-stats { grid-template-columns: 1fr 1fr; }
+            .bf-stat-item:nth-child(2) { border-left: none; }
+            .bf-features-grid, .bf-units-grid { grid-template-columns: 1fr; }
+            .bf-payment-grid { grid-template-columns: 1fr; gap: 16px; }
+            .bf-contact-grid { grid-template-columns: 1fr; gap: 40px; }
+            .bf-contact-info h2 { font-size: 1.6rem; }
+            .bf-pano { height: 220px; }
+            .bf-gallery-grid { grid-template-columns: 1fr; grid-template-rows: auto; }
+            .bf-gallery-item { height: 240px; }
+            .bf-gallery-item:first-child { height: 300px; }
+            .bf-hero-content .container { padding: 0 20px; }
+        }
+
+        /* Container utility */
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+        @media (max-width: 768px) { .container { padding: 0 20px; } }
+
+        /* Section bg alternates */
+        .bf-section.bg-mid { background: var(--bf-mid); }
+        .bf-section.bg-dark { background: var(--bf-dark); }
+    </style>
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <img src="images/logo_white.webp" alt="مدينة نصر للإسكان والتعمير" class="preloader-logo">
+            <div class="preloader-bar">
+                <div class="preloader-progress" id="preloaderProgress"></div>
+            </div>
+            <p class="preloader-tagline">The Butterfly — مستقبل سيتي</p>
+        </div>
+    </div>
+
+    <!-- ===== SCROLL PROGRESS ===== -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logo_white.webp"
+                         data-scrolled-src="images/logo_transparent.webp"
+                         alt="مدينة نصر للإسكان والتعمير"
+                         class="logo-img"
+                         id="logoImg"
+                         width="46" height="44">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">الرئيسية</a>
+                <a href="index.html#about" class="nav-link">من نحن</a>
+                <a href="sarai.html" class="nav-link">سراي</a>
+                <a href="talala.html" class="nav-link">تلالا</a>
+                <a href="butterfly.html" class="nav-link active-page">ذا باترفلاي</a>
+                <a href="javascript:void(0)" class="nav-cta" onclick="openBookingModal('Butterfly Page')" aria-label="تواصل معنا">تواصل معنا</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="قائمة التنقل">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <nav class="mobile-nav">
+                <a href="index.html" class="mobile-link">الرئيسية</a>
+                <a href="index.html#about" class="mobile-link">من نحن</a>
+                <a href="sarai.html" class="mobile-link">سراي</a>
+                <a href="talala.html" class="mobile-link">تلالا</a>
+                <a href="butterfly.html" class="mobile-link active-page">ذا باترفلاي</a>
+                <a href="javascript:void(0)" class="mobile-link" onclick="openBookingModal('Butterfly Mobile')" aria-label="تواصل معنا">تواصل معنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="bf-hero" id="hero">
+        <div class="bf-hero-bg" id="bfBg"></div>
+        <div class="bf-hero-content">
+            <div class="container">
+                <div class="bf-logo-badge">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/white%20butterfly24092024164126.png"
+                         alt="The Butterfly Logo">
+                </div>
+                <div class="bf-hero-tag">مستقبل سيتي — القاهرة الجديدة</div>
+                <h1>ذا باترفلاي<br><span>حياة بلا حدود</span></h1>
+                <p class="bf-hero-sub">
+                    كمبوند فريد من نوعه في قلب مستقبل سيتي، يضم شققاً ودوبلكسات وتاون هاوسات بمساحات متنوعة وتشطيبات راقية داخل مجتمع متكامل الخدمات.
+                </p>
+                <div class="bf-hero-btns">
+                    <button class="bf-btn-primary" onclick="openBookingModal('Hero CTA')">
+                        احجز استشارة مجانية
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                    <a href="#gallery" class="bf-btn-outline">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="m9 9 5 5m0-5-5 5"/></svg>
+                        استعرض المشروع
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="bf-section bg-dark" style="padding-top:0; padding-bottom:60px;">
+        <div class="container">
+            <div class="bf-stats">
+                <div class="bf-stat-item">
+                    <span class="bf-stat-num">٣+</span>
+                    <span class="bf-stat-label">أنواع وحدات سكنية</span>
+                </div>
+                <div class="bf-stat-item">
+                    <span class="bf-stat-num">١٠+</span>
+                    <span class="bf-stat-label">سنوات سداد مرنة</span>
+                </div>
+                <div class="bf-stat-item">
+                    <span class="bf-stat-num">٥٪</span>
+                    <span class="bf-stat-label">مقدم يبدأ من</span>
+                </div>
+                <div class="bf-stat-item">
+                    <span class="bf-stat-num">١٩٥٩</span>
+                    <span class="bf-stat-label">تأسست الشركة</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="bf-section bg-dark" id="gallery" style="padding-top:0;">
+        <div class="container">
+            <div class="bf-section-header">
+                <div class="bf-section-tag">معرض المشروع</div>
+                <h2 class="bf-section-title">تصاميم تعكس رقي المعيشة</h2>
+                <p class="bf-section-sub">صور حقيقية من كمبوند ذا باترفلاي تُبرز جمال التصميم المعماري والبيئة المحيطة</p>
+            </div>
+            <div class="bf-gallery-grid">
+                <div class="bf-gallery-item">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/THE%20BUTTERFLY%20CARD2409202412234913052026155043.webp?w=900&q=85&ext=webp"
+                         alt="ذا باترفلاي - المشروع الرئيسي" loading="lazy" width="900" height="600">
+                </div>
+                <div class="bf-gallery-item">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project%20%281%2906102024120257.jpg?w=640&q=80&ext=webp"
+                         alt="ذا باترفلاي - مشهد خارجي" loading="lazy" width="640" height="400">
+                </div>
+                <div class="bf-gallery-item">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project%20%282%2906102024121617.jpg?w=640&q=80&ext=webp"
+                         alt="ذا باترفلاي - مشهد بانورامي" loading="lazy" width="640" height="400">
+                </div>
+                <div class="bf-gallery-item">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/seo%20the%20butterfly24092024160709.jpg?w=640&q=80&ext=webp"
+                         alt="ذا باترفلاي - تصميم متنوع" loading="lazy" width="640" height="400">
+                </div>
+                <div class="bf-gallery-item">
+                    <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project06102024122325.jpg?w=640&q=80&ext=webp"
+                         alt="ذا باترفلاي - واجهة المشروع" loading="lazy" width="640" height="400">
+                </div>
+            </div>
+            <!-- Panoramic Strip -->
+            <div class="bf-pano">
+                <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/Pano-Front14042025155110.webp?w=1920&q=85&ext=webp"
+                     alt="ذا باترفلاي - الواجهة البانورامية" loading="lazy" width="1920" height="640">
+                <div class="bf-pano-overlay">
+                    <div class="bf-pano-text">
+                        <h3>واجهة بانورامية استثنائية</h3>
+                        <p>تصميم معماري فريد يجمع بين الأناقة والوظيفية في قلب مستقبل سيتي</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="bf-section bg-mid" id="features">
+        <div class="container">
+            <div class="bf-section-header">
+                <div class="bf-section-tag">مميزات المشروع</div>
+                <h2 class="bf-section-title">ما يجعل باترفلاي استثماراً مثالياً</h2>
+                <p class="bf-section-sub">مجتمع متكامل مصمم لتقديم أرقى مستويات المعيشة والراحة</p>
+            </div>
+            <div class="bf-features-grid">
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">🏡</div>
+                    <div class="bf-feature-title">وحدات سكنية متنوعة</div>
+                    <p class="bf-feature-text">شقق ودوبلكسات وتاون هاوسات بمساحات ومخططات تناسب مختلف الاحتياجات والأسر</p>
+                </div>
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">🏊</div>
+                    <div class="bf-feature-title">مجمع خدمات متكامل</div>
+                    <p class="bf-feature-text">حمامات سباحة ونادٍ رياضي ومناطق ترفيهية ومساحات خضراء واسعة لأسلوب حياة متميز</p>
+                </div>
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">📍</div>
+                    <div class="bf-feature-title">موقع استراتيجي متميز</div>
+                    <p class="bf-feature-text">في قلب مستقبل سيتي بالقاهرة الجديدة، بالقرب من محاور المواصلات الرئيسية والمرافق الحيوية</p>
+                </div>
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">🔒</div>
+                    <div class="bf-feature-title">أمن وخصوصية تامة</div>
+                    <p class="bf-feature-text">منظومة أمنية متكاملة على مدار الساعة وبوابات ذكية لضمان راحة بالك وحماية أسرتك</p>
+                </div>
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">🌿</div>
+                    <div class="bf-feature-title">مساحات خضراء طبيعية</div>
+                    <p class="bf-feature-text">حدائق ومناطق طبيعية مصممة بعناية توفر بيئة هادئة ونظيفة بعيداً عن ضوضاء المدينة</p>
+                </div>
+                <div class="bf-feature-card">
+                    <div class="bf-feature-icon">💎</div>
+                    <div class="bf-feature-title">تشطيبات راقية</div>
+                    <p class="bf-feature-text">أعلى معايير الجودة في التشطيب والتصميم الداخلي، باستخدام مواد ممتازة لتوفير أفضل تجربة سكنية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== UNITS ===== -->
+    <section class="bf-section bg-dark" id="units">
+        <div class="container">
+            <div class="bf-section-header">
+                <div class="bf-section-tag">الوحدات السكنية</div>
+                <h2 class="bf-section-title">اختر وحدتك المثالية</h2>
+                <p class="bf-section-sub">تشكيلة واسعة من الوحدات السكنية تناسب جميع احتياجاتك وميزانيتك</p>
+            </div>
+            <div class="bf-units-grid">
+                <!-- Apartment -->
+                <div class="bf-unit-card">
+                    <div class="bf-unit-img">
+                        <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project%20%281%2906102024120257.jpg?w=640&q=80&ext=webp"
+                             alt="شقق ذا باترفلاي" loading="lazy" width="640" height="400">
+                    </div>
+                    <div class="bf-unit-body">
+                        <div class="bf-unit-type">APARTMENT</div>
+                        <div class="bf-unit-name">شقة سكنية</div>
+                        <p class="bf-unit-desc">شقق بتصاميم عصرية وإطلالات مميزة، تجمع بين الراحة والأناقة في قلب المجتمع</p>
+                        <div class="bf-unit-specs">
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                                مساحات متنوعة
+                            </div>
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/></svg>
+                                ٢–٣ غرف نوم
+                            </div>
+                        </div>
+                        <button class="bf-unit-cta" onclick="openBookingModal('Apartment Unit')">اعرف أكثر</button>
+                    </div>
+                </div>
+                <!-- Duplex -->
+                <div class="bf-unit-card">
+                    <div class="bf-unit-img">
+                        <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project%20%282%2906102024121617.jpg?w=640&q=80&ext=webp"
+                             alt="دوبلكس ذا باترفلاي" loading="lazy" width="640" height="400">
+                    </div>
+                    <div class="bf-unit-body">
+                        <div class="bf-unit-type">DUPLEX</div>
+                        <div class="bf-unit-name">دوبلكس</div>
+                        <p class="bf-unit-desc">دوبلكسات فاخرة على طابقين توفر مساحة معيشية أكبر وخصوصية أعلى لأسرتك</p>
+                        <div class="bf-unit-specs">
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                                طابقان متكاملان
+                            </div>
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/></svg>
+                                ٣–٤ غرف نوم
+                            </div>
+                        </div>
+                        <button class="bf-unit-cta" onclick="openBookingModal('Duplex Unit')">اعرف أكثر</button>
+                    </div>
+                </div>
+                <!-- Townhouse -->
+                <div class="bf-unit-card">
+                    <div class="bf-unit-img">
+                        <img src="https://assets.live.beyond-creation.net/madinet-masr/media/library/New%20Project06102024122325.jpg?w=640&q=80&ext=webp"
+                             alt="تاون هاوس ذا باترفلاي" loading="lazy" width="640" height="400">
+                    </div>
+                    <div class="bf-unit-body">
+                        <div class="bf-unit-type">TOWNHOUSE</div>
+                        <div class="bf-unit-name">تاون هاوس</div>
+                        <p class="bf-unit-desc">تاون هاوسات مستقلة بحديقة خاصة توفر أقصى درجات الرفاهية والخصوصية لعائلتك</p>
+                        <div class="bf-unit-specs">
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                                حديقة خاصة
+                            </div>
+                            <div class="bf-spec">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/></svg>
+                                ٤+ غرف نوم
+                            </div>
+                        </div>
+                        <button class="bf-unit-cta" onclick="openBookingModal('Townhouse Unit')">اعرف أكثر</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PAYMENT ===== -->
+    <section class="bf-section bg-mid" id="payment">
+        <div class="container">
+            <div class="bf-payment">
+                <div class="bf-section-tag">نظام السداد</div>
+                <h2 class="bf-section-title">حلول تمويلية مرنة تناسبك</h2>
+                <p class="bf-section-sub">أنظمة سداد مرنة تتيح لك الحصول على وحدتك الآن والدفع بالقسط الذي يناسبك</p>
+                <div class="bf-payment-grid">
+                    <div class="bf-payment-item">
+                        <span class="bf-payment-num">٥٪</span>
+                        <div class="bf-payment-label">مقدم يبدأ من</div>
+                    </div>
+                    <div class="bf-payment-item">
+                        <span class="bf-payment-num">١٠</span>
+                        <div class="bf-payment-label">سنوات سداد</div>
+                    </div>
+                    <div class="bf-payment-item">
+                        <span class="bf-payment-num">٠٪</span>
+                        <div class="bf-payment-label">فوائد على الأقساط</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="bf-section bg-dark" id="contact">
+        <div class="container">
+            <div class="bf-contact">
+                <div class="bf-contact-grid">
+                    <div class="bf-contact-info">
+                        <div class="bf-section-tag">تواصل معنا</div>
+                        <h2>احجز وحدتك في ذا باترفلاي اليوم</h2>
+                        <p>فريق مبيعاتنا جاهز للإجابة على جميع استفساراتك وتوفير أفضل عرض يناسبك. تواصل معنا الآن ولا تفوّت الفرصة.</p>
+                        <div class="bf-contact-links">
+                            <a href="tel:19031" class="bf-contact-link">
+                                <div class="bf-contact-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l.9-.9a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.01z"/></svg>
+                                </div>
+                                الخط الساخن: 19031
+                            </a>
+                            <a href="https://wa.me/201019031" target="_blank" class="bf-contact-link">
+                                <div class="bf-contact-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+                                </div>
+                                تواصل عبر واتساب
+                            </a>
+                            <a href="https://madinetmasr.com/ar/projects/the-butterfly" target="_blank" class="bf-contact-link">
+                                <div class="bf-contact-link-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                                </div>
+                                موقع المشروع
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bf-contact-form">
+                        <form id="bfContactForm" onsubmit="handleBfFormGS(event)">
+                            <div class="bf-form-group">
+                                <label for="bfName">الاسم الكامل *</label>
+                                <input type="text" id="bfName" required placeholder="أدخل اسمك الكامل">
+                            </div>
+                            <div class="bf-form-group">
+                                <label for="bfPhone">رقم الهاتف *</label>
+                                <input type="tel" id="bfPhone" required placeholder="01xxxxxxxxx">
+                            </div>
+                            <div class="bf-form-group">
+                                <label for="bfUnit">نوع الوحدة المفضلة</label>
+                                <select id="bfUnit">
+                                    <option value="apartment">شقة سكنية</option>
+                                    <option value="duplex">دوبلكس</option>
+                                    <option value="townhouse">تاون هاوس</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="bf-submit" id="bfSubmitBtn">
+                                إرسال الطلب ←
+                            </button>
+                            <div class="bf-form-success" id="bfFormSuccess">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                <span>تم تسجيل طلبك! سيتصل بك مستشار مبيعات ذا باترفلاي قريباً.</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bf-footer">
+        <div class="container">
+            <img src="images/logo_white.webp" alt="مدينة نصر للإسكان والتعمير" style="height:40px; margin-bottom:16px; display:block; margin-left:auto; margin-right:auto;">
+            <p class="bf-footer-text">
+                ذا باترفلاي — مستقبل سيتي | مدينة نصر للإسكان والتعمير © ٢٠٢٦
+            </p>
+            <div style="margin-top:1.2rem; display:flex; justify-content:center; gap:2rem; flex-wrap:wrap;">
+                <a href="index.html" style="color:rgba(255,255,255,0.35); font-size:0.8rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">الصفحة الرئيسية</a>
+                <a href="sarai.html" style="color:rgba(255,255,255,0.35); font-size:0.8rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">سراي</a>
+                <a href="talala.html" style="color:rgba(255,255,255,0.35); font-size:0.8rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">تلالا</a>
+                <a href="butterfly.html" style="color:rgba(255,255,255,0.35); font-size:0.8rem; text-decoration:none; transition:color 0.2s;" onmouseover="this.style.color='#c9a84c'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">ذا بترفلاي</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING CTA ===== -->
+    <div class="floating-cta" id="floatingCta" style="opacity:0">
+        <a href="https://wa.me/201019031" target="_blank" class="float-btn whatsapp-btn" title="واتساب">
+            <svg class="float-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+        </a>
+        <a href="tel:19031" class="float-btn phone-btn" title="اتصال">
+            <svg class="float-icon-svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="العودة للأعلى">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <!-- ===== BOOKING MODAL ===== -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-overlay" onclick="closeBfModal()"></div>
+        <div class="modal-content animate-fade-up">
+            <button class="modal-close" onclick="closeBfModal()">&#x2715;</button>
+            <div class="modal-header">
+                <span class="modal-badge">استشارة ذا باترفلاي</span>
+                <h3 class="modal-title">احجز استشارة مجانية</h3>
+                <p class="modal-desc">سجل بياناتك وسنقوم بتعيين مستشار عقاري للتواصل معك بخصوص كمبوند ذا باترفلاي.</p>
+            </div>
+            <form id="bfModalForm" onsubmit="handleBfModal(event)">
+                <input type="hidden" id="modalSource" value="Butterfly Page Modal">
+                <div class="form-group">
+                    <label for="bfModalName">الاسم الكامل *</label>
+                    <input type="text" id="bfModalName" required placeholder="أدخل اسمك">
+                </div>
+                <div class="form-group">
+                    <label for="bfModalPhone">رقم الهاتف *</label>
+                    <input type="tel" id="bfModalPhone" required placeholder="01xxxxxxxxx">
+                </div>
+                <div class="form-group">
+                    <label for="bfModalUnit">نوع الوحدة المفضلة</label>
+                    <select id="bfModalUnit">
+                        <option value="apartment">شقة سكنية</option>
+                        <option value="duplex">دوبلكس</option>
+                        <option value="townhouse">تاون هاوس</option>
+                    </select>
+                </div>
+                <button type="submit" class="form-submit" id="bfModalSubmit">
+                    تأكيد طلب ذا باترفلاي ←
+                </button>
+                <div class="form-success" id="bfModalSuccess" style="display:none">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>تم تسجيل طلبك. سيتصل مستشار مبيعات ذا باترفلاي بك قريباً.</span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor-dot" id="customCursorDot"></div>
+    <div class="custom-cursor-circle" id="customCursorCircle"></div>
+
+    <!-- Scripts -->
+    <script src="js/script.js?v=1.3"></script>
+    <script src="js/formHandler.js?v=1.3"></script>
+    <script>
+        // Hero parallax
+        window.addEventListener('scroll', () => {
+            const bg = document.getElementById('bfBg');
+            if (bg) {
+                bg.style.transform = `scale(1.04) translateY(${window.scrollY * 0.25}px)`;
+            }
+        }, { passive: true });
+
+        // Contact form — handled by formHandler.js (handleBfFormGS)
+        // Local stub kept for fallback only
+        function handleBfForm(e) {
+            if (typeof handleBfFormGS === 'function') {
+                return handleBfFormGS(e);
+            }
+            e.preventDefault();
+            const btn = document.getElementById('bfSubmitBtn');
+            const success = document.getElementById('bfFormSuccess');
+            if (btn) { btn.textContent = 'جاري الإرسال...'; btn.disabled = true; }
+            setTimeout(() => {
+                if (btn) btn.style.display = 'none';
+                if (success) success.style.display = 'flex';
+            }, 1000);
+        }
+
+        // Modal functions
+        function openBookingModal(source) {
+            const modal = document.getElementById('bookingModal');
+            const src = document.getElementById('modalSource');
+            if (modal) {
+                if (src) src.value = source || 'Butterfly Page';
+                modal.classList.add('open');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeBfModal() {
+            const modal = document.getElementById('bookingModal');
+            if (modal) {
+                modal.classList.remove('open');
+                document.body.style.overflow = '';
+            }
+        }
+
+        function handleBfModal(e) {
+            e.preventDefault();
+            const btn = document.getElementById('bfModalSubmit');
+            const success = document.getElementById('bfModalSuccess');
+            btn.textContent = 'جاري الإرسال...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.style.display = 'none';
+                success.style.display = 'flex';
+                setTimeout(() => { window.location.href = 'thankyou.html'; }, 1200);
+            }, 1000);
+        }
+
+        document.getElementById('bookingModal')?.addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) closeBfModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeBfModal();
+        });
+    </script>
+</body>
+</html>

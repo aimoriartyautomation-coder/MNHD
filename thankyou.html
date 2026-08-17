@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>شكراً لك — تم استلام طلبك بنجاح | مدينة مصر</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --brand:         #0D1B2A;
+            --brand-dark:    #061224;
+            --brand-mid:     #122437;
+            --brand-light:   #C9A84C;
+            --brand-light2:  #E0C06B;
+            --white:         #FFFFFF;
+            --text-muted:    rgba(255,255,255,0.6);
+            --transition:    0.3s ease;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, var(--brand-dark), var(--brand));
+            color: var(--white);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            overflow-x: hidden;
+            position: relative;
+        }
+        
+        /* Background architectural lines/decor */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border: 1px solid rgba(201, 168, 76, 0.08);
+            border-radius: 50%;
+            top: -200px;
+            left: -200px;
+            pointer-events: none;
+        }
+        
+        body::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border: 1px solid rgba(201, 168, 76, 0.05);
+            transform: rotate(45deg);
+            bottom: -100px;
+            right: -100px;
+            pointer-events: none;
+        }
+        
+        .thankyou-card {
+            background: rgba(18, 36, 55, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(201, 168, 76, 0.25);
+            border-radius: 24px;
+            padding: 60px 48px;
+            width: 100%;
+            max-width: 580px;
+            text-align: center;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+            position: relative;
+            z-index: 2;
+            animation: cardAppear 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        
+        @keyframes cardAppear {
+            from { transform: translateY(40px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .success-icon-wrap {
+            width: 90px;
+            height: 90px;
+            background: rgba(201, 168, 76, 0.12);
+            border: 1px solid rgba(201, 168, 76, 0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 32px;
+            color: var(--brand-light);
+            box-shadow: 0 0 30px rgba(201, 168, 76, 0.2);
+            animation: pulseIcon 2s infinite;
+        }
+        
+        @keyframes pulseIcon {
+            0% { transform: scale(1); box-shadow: 0 0 20px rgba(201, 168, 76, 0.15); }
+            50% { transform: scale(1.05); box-shadow: 0 0 35px rgba(201, 168, 76, 0.3); }
+            100% { transform: scale(1); box-shadow: 0 0 20px rgba(201, 168, 76, 0.15); }
+        }
+        
+        .thankyou-title {
+            font-size: clamp(1.8rem, 4vw, 2.3rem);
+            font-weight: 900;
+            color: var(--white);
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+        
+        .thankyou-desc {
+            font-size: 1rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 40px;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .btn-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, var(--brand-light), var(--brand-light2));
+            color: var(--brand-dark);
+            padding: 16px 36px;
+            border-radius: var(--radius-full, 99px);
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 8px 24px rgba(201, 168, 76, 0.3);
+            transition: var(--transition);
+        }
+        
+        .btn-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(201, 168, 76, 0.5);
+        }
+        
+        .lang-indicator {
+            margin-top: 32px;
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.3);
+        }
+        
+        /* Language alignment overrides */
+        html[lang="en"] body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        @media (max-width: 480px) {
+            .thankyou-card {
+                padding: 40px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thankyou-card">
+        <div class="success-icon-wrap">
+            <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+            </svg>
+        </div>
+        
+        <h1 class="thankyou-title" id="tyTitle">تم استلام طلبك بنجاح!</h1>
+        <p class="thankyou-desc" id="tyDesc">
+            شكراً لثقتك في شركة مدينة مصر. لقد تم تسجيل معلوماتك بنجاح، وسيقوم أحد مستشارينا العقاريين بالتواصل معك خلال دقائق لتزويدك بكافة التفاصيل والأسعار.
+        </p>
+        
+        <a href="index.html" class="btn-home" id="tyBtn">
+            <span id="tyBtnText">العودة للرئيسية</span>
+            <span id="tyArrow">&#8594;</span>
+        </a>
+        
+        <div class="lang-indicator" id="tyLangInfo">
+            Arabic / English Translation Enabled
+        </div>
+    </div>
+
+    <script>
+        // Check language state to match the client preference
+        const selectedLang = localStorage.getItem('madinet_masr_lang') || 'ar';
+        if (selectedLang === 'en') {
+            document.documentElement.dir = 'ltr';
+            document.documentElement.lang = 'en';
+            
+            document.getElementById('tyTitle').textContent = 'Your Request was Submitted Successfully!';
+            document.getElementById('tyDesc').textContent = 'Thank you for choosing Madinet Masr. Your information has been registered successfully, and one of our real estate consultants will contact you shortly to provide all details and pricing.';
+            document.getElementById('tyBtnText').textContent = 'Back to Homepage';
+            document.getElementById('tyArrow').innerHTML = '&#8592;';
+            document.getElementById('tyLangInfo').textContent = 'تم استلام طلبك - الترجمة مفعلة';
+        }
+    </script>
+</body>
+</html>
